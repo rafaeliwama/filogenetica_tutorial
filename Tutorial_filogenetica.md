@@ -74,6 +74,13 @@ Aminoácidos são codificados por codons, compostos por três nucleotídeos. O c
 
 ![f5de6355003ee322782b26404ef0733a1d1a61b0](https://user-images.githubusercontent.com/46658489/228330276-789a0ff6-e25f-46ea-8b3b-3f7d5efeb700.png)
 
+Preste atenção no segundo nucleotídeo de cada códon. A primeira coisa que se nota, é q o código genético é redundante, ou seja, mais de um códon codifica um amino ácido. A segunda coisa é que mutações no segundo amino ácido de cada códon, raramente resultam em uma mudança no amino ácido codificante.
+
+Estas duas características do código têm implicações importantes para as análises filogenéticas. Primeiro, informações são perdidas quando usamos sequências de proteínas pois não podemos distinguir qual códon codifica um amino ácido. Segundo, o segundo nucleotídeo de cada códon está sob menos intensidade de seleção e está mais livre para mutar, já que há pouca probabilidade de que esta mutação resulte em uma mudança na sequência da proteína. Regiões com menos seleção guardam mais informação filogenética.
+
+**Pergunta:** Pq seleção seria um problema para análises filogenéticas?
+
+
 
 
 
