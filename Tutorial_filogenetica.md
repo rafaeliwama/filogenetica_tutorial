@@ -39,7 +39,28 @@ Ta bom, mas agora vamos começar com o tutorial:
 ## Dataset
 Nós vamos utilizar como dataset, sequências de aminoácidos de Hirudina, que anticoagulantes potentes.
 
-Você já deve ter feito alguma atividade de codificar characteres em uma matrix para alguma aula de filogenética, mas
+Você já deve ter feito alguma atividade de codificar characteres em uma matrix para alguma aula de filogenética. Com dados de sequências, cada uma das posições na sequência é considerado um caractere.
+
+Por exemplo:
+
+![Screenshot from 2023-03-28 14-50-36](https://user-images.githubusercontent.com/46658489/228319084-c6d7497e-657c-4cc2-8c0a-12925e1b9500.png)
+
+Nesta imagem nós temos sequências de nucleotídeos para duas espécies. Você pode perceber que cada posição na sequência é um caractere e cada nucleotídeo é um estado.
+
+Neste caso, as duas sequências possuem exatamente o mesmo número de nucleotídeos, mas o que você acha que aconteceria com sequências com tamanho diferente.
+
+Por examplo:
+
+Seq. 1: AACTTCGGA
+
+Seq. 2: ACTTCGGA
+
+**Pergunta:** Como você acha que nós poderíamos codificar essa sequência em uma matrix?
+Obviamente, o segundo 'A' sofreu uma deleção em algum momento da evolução entre a divergência das duas sequências. Nós chamamos esse estado de caractere de 'gap' e ele é codificado da seguinte maneira:
+
+![Screenshot from 2023-03-28 15-23-40](https://user-images.githubusercontent.com/46658489/228326335-4c1a8567-08ad-445f-9256-a1c237ed3197.png)
+
+
 
 ## Alinhamento
 
