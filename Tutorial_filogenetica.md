@@ -47,6 +47,8 @@ Por exemplo:
 
 Nesta imagem nós temos sequências de nucleotídeos para duas espécies. Você pode perceber que cada posição na sequência é um caractere e cada nucleotídeo é um estado.
 
+Os nucleotídeos em vermelho demonstram divergências nas duas sequências. Esse tipo de divergência são chamadas de SNPs (Single Nucleotide Polymorphism). Este tipo de mutação são as mutações que contém informação filogenética relevante.
+
 Neste caso, as duas sequências possuem exatamente o mesmo número de nucleotídeos, mas o que você acha que aconteceria com sequências com tamanho diferente.
 
 Por examplo:
@@ -59,6 +61,19 @@ Seq. 2: ACTTCGGA
 Obviamente, o segundo 'A' sofreu uma deleção em algum momento da evolução entre a divergência das duas sequências. Nós chamamos esse estado de caractere de 'gap' e ele é codificado da seguinte maneira:
 
 ![Screenshot from 2023-03-28 15-23-40](https://user-images.githubusercontent.com/46658489/228326335-4c1a8567-08ad-445f-9256-a1c237ed3197.png)
+
+Gaps são resultantes de INDELs (INsertions or DELetions). Este tipo de mutação não contém informação filogenética relevante, pois é impossível distinguir deleções e inserções.
+
+Em quase todos os casos reais, as sequências que nós vamos utilizar dados com alguns indels. Quanto menos indels, melhor será sua análise.
+
+### Sequências de aminoácidos
+
+Uma coisa importante de se ter em mente é algumas diferenças entre análises com sequências de aminoácidos e sequências de nucleotídeos:
+
+Aminoácidos são codificados por codons, compostos por três nucleotídeos. O código genético pode ser consultado abaixo:
+
+![f5de6355003ee322782b26404ef0733a1d1a61b0](https://user-images.githubusercontent.com/46658489/228330276-789a0ff6-e25f-46ea-8b3b-3f7d5efeb700.png)
+
 
 
 
