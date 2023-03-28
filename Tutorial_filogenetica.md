@@ -37,7 +37,9 @@ Estas previsões têm um papel fundamental na metodologia científica, pois elas
 Ta bom, mas agora vamos começar com o tutorial:
 
 ## Dataset
+Nós vamos utilizar como dataset, sequências de aminoácidos de Hirudina, que anticoagulantes potentes.
 
+Você já deve ter feito alguma atividade de codificar characteres em uma matrix para alguma aula de filogenética, mas
 
 ## Alinhamento
 
