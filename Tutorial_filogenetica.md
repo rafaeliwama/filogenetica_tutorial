@@ -25,12 +25,18 @@ Pense no modo de argumentação de um terra planista. A medida que você argumen
 
 O argumento 'Mas a NASA ...' possui alta complexidade, pois tudo pode acontecer. 
    - Os funcionários da NASA podem ter ocultado
+ 
    - A NASA materia quem quisesse falar a verdade
+
    - A NASA tem poder para manipular o que quiser
 
 Estes argumentos, de tão complexos, impossibilitam uma característica importante da ciência que é a de fazer previsões do que pode e o que não pode acontecer em um determinado cenário.
 
-Estas previsões têm um papel fundamental na metodologia científica, pois elas possibilitam os testes de hipóteses. E estes testes são tentativas de falsear um hipótese.
+Estas previsões têm um papel fundamental na metodologia científica, pois elas possibilitam os testes de hipóteses. E estes testes são tentativas de falsear uma hipótese. Então, não é muito difícil de entender que é mais fácil de falsear hipóteses menos complexas.
+
+
+
+
 
 
 
