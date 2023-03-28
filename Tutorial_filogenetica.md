@@ -34,7 +34,27 @@ Estes argumentos, de tão complexos, impossibilitam uma característica importan
 
 Estas previsões têm um papel fundamental na metodologia científica, pois elas possibilitam os testes de hipóteses. E estes testes são tentativas de falsear uma hipótese. Então, não é muito difícil de entender que é mais fácil de falsear hipóteses menos complexas.
 
+Ta bom, mas agora vamos começar com o tutorial:
 
+## Dataset
+
+
+## Alinhamento
+
+
+
+
+
+O primeiro passo é fazer o download do TNT e descomprimir o diretório (Goloboff, 1999).
+
+```
+wget https://www.lillo.org.ar/phylogeny/tnt/tnt-linux.zip
+unzip tnt-linux.zip
+```
+
+Antes de começar, acesse o site do TNT para consultar o manual (https://www.lillo.org.ar/phylogeny/tnt/).
+
+É. Realmente não tem manual. Esse é o pior programa que você vai usar e ele foi feito assim propositalmente.
 
 
 
