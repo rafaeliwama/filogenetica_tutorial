@@ -80,11 +80,21 @@ Estas duas características do código têm implicações importantes para as an
 
 **Pergunta:** Pq seleção seria um problema para análises filogenéticas?
 
-
-
-
-
 ## Alinhamento
+
+No exemplo acima, em que as sequências de nucleotídeos variam de tamanho, é facil de entender o que aconteceu durante a evolução destes dois loci. É obvio que houve um indel. Porém, a realidade é bem diferente. Sequências maiores, com mais indels, e SNPs acabam sendo muito mais difícil de estabelecer homologia entre os nucleotídeos. Para isso, nós temos softwares que fazem o que nós chamamos de alinhamento.
+
+Um desses softwares é o MAFFT (Katoh et al 2002), que ainda é o algoritmo que tem a melhor performance quanto à precisão.
+
+**Ver:** https://academic.oup.com/bioinformatics/article/23/19/2648/187079?login=true
+
+Para utilizar o MAFFT, nós podemos utilizar a versão online. Isso é bom quando você precisar alinhar matrizes pequenas, porque é bem rápido e é possível visualizar rapidamente os resultados.
+
+Vá para site em que o MAFFT está hospedado: https://mafft.cbrc.jp/alignment/server/
+
+
+
+
 
 
 
