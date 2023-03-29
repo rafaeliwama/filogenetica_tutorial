@@ -66,6 +66,12 @@ Gaps são resultantes de INDELs (INsertions or DELetions). Este tipo de mutaçã
 
 Em quase todos os casos reais, as sequências que nós vamos utilizar dados com alguns indels. Quanto menos indels, melhor será sua análise.
 
+Para obter as sequências que nós vamos trabalhar neste tutorial, clone este repositório.
+
+```
+git clone https://github.com/rafaeliwama/filogenetica_tutorial.git 
+```
+
 ### Sequências de aminoácidos
 
 Uma coisa importante de se ter em mente é algumas diferenças entre análises com sequências de aminoácidos e sequências de nucleotídeos:
@@ -90,12 +96,26 @@ Um desses softwares é o MAFFT (Katoh et al 2002), que ainda é o algoritmo que 
 
 Para utilizar o MAFFT, nós podemos utilizar a versão online. Isso é bom quando você precisar alinhar matrizes pequenas, porque é bem rápido e é possível visualizar rapidamente os resultados.
 
-Vá para site em que o MAFFT está hospedado: https://mafft.cbrc.jp/alignment/server/
+Vá para o site em que o MAFFT está hospedado: https://mafft.cbrc.jp/alignment/server/
 
+**Atividade:** 
+- Abra o arquivo 'tess_Hirudin.unal.fasta' em um editor de plain text. Eu recomendo o Sublime (https://www.sublimetext.com/). Existem editores de textos nativos do Windows e outros sistemas operacionais. Eles servem, mas outros editores de texto têm mais funcões que você pode utilizar depois.
 
+- Analise o arquivo. Qual o formato do arquivo? Qual tipo de sequência este arquivo contém? O tamanho das sequências é igual ou são diferentes?
 
+- Copie e cole o conteúdo deste arquivo no campo input da pagina do MAFFT
 
+![Screenshot from 2023-03-29 13-18-00](https://user-images.githubusercontent.com/46658489/228595065-e9833dc0-7814-423f-8a21-a6193b39e867.png)
 
+- No 'Advaced Settings' deixe a opção 'auto' selecionada. Cada uma dessas opções são algorítmos que utilizam estratégias diferentes de optimização do alinhamento. A descrição de cada algorítmo está disponível no manual e em diferentes publicações.
+
+![Screenshot from 2023-03-29 13-22-34](https://user-images.githubusercontent.com/46658489/228596372-6641aa2b-c47f-4951-afd1-cbfcbdeb94b8.png)
+
+- Escolha o modelo utilizado para optimizar o alinhamento: BLOSUM62. Basicamente, o modelo é utilizado para computar qual a probabilidade de se obter um determinado alinhamento. O alinhamento com maior probabilidade em relação ao modelo dado é selecionado. No caso do BLOSUM62, a probabilidade de cada substituição de amino ácidos (ex. Ser para Gly) foram calculados utilizando uma base de dados de alinhamentos bem estabelecidos que, supostamente, representa a maior parte dos organismos. O importante de deixar claro, é que estas matrizes de substituição (modelos) de proteínas, são obtidos a partir de alinhamentos que nós conseguimos confiar, e que essas matrizes descrevem as probabilidades de substituição para cada par de amino ácidos. Isso é dificil de entender, mas eu posso te explicar melhor pessoalmente!
+
+- O 'gap opening penalty' é a penalidade no likelihood de cada substituição por um indel. O que você acha menos provavel de acontecer, um SNP ou um INDEL? E pq?
+
+![Screenshot from 2023-03-29 13-26-51](https://user-images.githubusercontent.com/46658489/228602494-2f9e243d-dc72-4bdf-aae0-565d428edadc.png)
 
 
 
