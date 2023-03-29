@@ -111,16 +111,28 @@ Vá para o site em que o MAFFT está hospedado: https://mafft.cbrc.jp/alignment/
 
 ![Screenshot from 2023-03-29 13-22-34](https://user-images.githubusercontent.com/46658489/228596372-6641aa2b-c47f-4951-afd1-cbfcbdeb94b8.png)
 
-- Escolha o modelo utilizado para optimizar o alinhamento: BLOSUM62. Basicamente, o modelo é utilizado para computar qual a probabilidade de se obter um determinado alinhamento. O alinhamento com maior probabilidade em relação ao modelo dado é selecionado. No caso do BLOSUM62, a probabilidade de cada substituição de amino ácidos (ex. Ser para Gly) foram calculados utilizando uma base de dados de alinhamentos bem estabelecidos que, supostamente, representa a maior parte dos organismos. O importante de deixar claro, é que estas matrizes de substituição (modelos) de proteínas, são obtidos a partir de alinhamentos que nós conseguimos confiar, e que essas matrizes descrevem as probabilidades de substituição para cada par de amino ácidos. Isso é dificil de entender, mas eu posso te explicar melhor pessoalmente!
+- Escolha o modelo utilizado para optimizar o alinhamento: BLOSUM62. Basicamente, o modelo é utilizado para computar qual a probabilidade de se obter um determinado alinhamento. O alinhamento com maior probabilidade em relação ao modelo dado é selecionado. No caso do BLOSUM62, a probabilidade de cada substituição de aminoácidos (ex. Ser para Gly) foram calculados utilizando uma base de dados de alinhamentos bem estabelecidos que, supostamente, representa a maior parte dos organismos. O importante de deixar claro, é que estas matrizes de substituição (modelos) de proteínas, são obtidos a partir de alinhamentos que nós conseguimos confiar, e que essas matrizes descrevem as probabilidades de substituição para cada par de aminoácidos. Isso é dificil de entender, mas eu posso te explicar melhor pessoalmente!
 
 - O 'gap opening penalty' é a penalidade no likelihood de cada substituição por um indel. O que você acha menos provavel de acontecer, um SNP ou um INDEL? E pq?
 
 ![Screenshot from 2023-03-29 13-26-51](https://user-images.githubusercontent.com/46658489/228602494-2f9e243d-dc72-4bdf-aae0-565d428edadc.png)
 
+- Submeta a corrida.
+
+Para fazer o download dos resultados em fasta clique na opção correspondente. Para visualizar os resultados, clique em view.
 
 
+**Atividades:** Observe os resultados do arquivo gerado pelo MAFFT. Quantos 'gaps' foram adicionados? Qual o tamanho das sequências? Elas têm tamanho igual ou diferente? Você acha que é possível diferenciar inserções e deleções?
 
-O primeiro passo é fazer o download do TNT e descomprimir o diretório (Goloboff, 1999).
+Este arquivo alinhado contém as informações que vão compor a matrix.
+
+
+## Parsimônia com TNT
+
+O TNT (Goloboff, 1999) é um software interessante. Ele foi bastante inovador, principalmente por aprimorar as estratégias de procura de árvores e alguns dos algorítmos introduzidos pelo TNT
+
+
+O primeiro passo é fazer o download do TNT e descomprimir o diretório.
 
 ```
 wget https://www.lillo.org.ar/phylogeny/tnt/tnt-linux.zip
