@@ -143,6 +143,38 @@ Antes de começar, acesse o site do TNT para consultar o manual (https://www.lil
 
 É. Realmente não tem manual. Esse é o pior programa que você vai usar e ele foi feito assim propositalmente.
 
+O TNT usa um formato de arquivo específico para as matrizes que são utilizadas como input. Esse formato se chama Hennig86 e é a coisa mais inútil que vc vai aprender na vida.
+
+
+O formato básico do arquivo é:
+
+```
+xread ‘optional title, starting and ending with quotes (ASCII 39)’
+nchar ntax
+Taxon0 0000000000
+Taxon1 0010111000
+Taxon2 1011110000
+Taxon3 1111111000
+…..
+TaxonN 1111111000
+; ‘<- Note the semicolon (and the way you add comments)!’
+```
+Onde:
+
+nchar - número de caracteres
+ntax - número de táxons
+
+Para especificar que você está trabalhando com sequências de amino ácidos, inclua a linha ```nstates prot;``` no topo do documento. Para nucleotídeos, adicione ```nstates dna;```
+
+
+Mas calma, você não precisa fazer isso à mão!
+
+Vários softwares fazem essa conversão de forma automática. Por exemplo
+
+Neste caso, os estados de caractere são 0 e 1 (caracteres morfológicos), mas você vai usar nucleotídeos de amino ácidos.
+
+
+
 
 
 
