@@ -2,6 +2,8 @@
 
 ######### usage:    input: fasta_alignment output: tnt_matrix
 #########           python3 fasta2tnt.py <fasta_alignment> <data_type> <missing_data> <output_file>
+######### requirements: Biopython
+
 ##### Import python libraries #####
 from Bio import SeqIO
 import sys
